@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  #survey-form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input,
+  select,
+  textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Style for the validation error message */
+  :invalid {
+    border: 2px solid black;
+  }
+  
+  /* Optional: Style for the radio buttons and checkboxes */
+  input[type="radio"],
+  input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  /* Optional: Style for the textarea */
+  textarea {
+    resize: vertical;
+  }
+  
