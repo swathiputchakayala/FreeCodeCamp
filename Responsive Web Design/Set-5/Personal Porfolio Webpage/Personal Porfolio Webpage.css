@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+  }
+  
+  #navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #292b2c;
+    padding: 15px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  .nav-link {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0 15px;
+    transition: color 0.3s;
+  }
+  
+  .nav-link:hover {
+    color: #ffc107;
+  }
+  
+  #welcome-section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(rgba(45, 52, 54, 0.9), rgba(45, 52, 54, 0.9)), url('welcome-bg.jpg');
+    background-size: cover;
+    color: #fff;
+  }
+  
+  .welcome-container {
+    max-width: 800px;
+  }
+  
+  #welcome-section h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+  }
+  
+  #welcome-section p {
+    font-size: 1.2em;
+  }
+  
+  #projects {
+    padding: 50px;
+  }
+  
+  .project-tile {
+    background-color: #fff;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .project-tile h2 {
+    color: #292b2c;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .project-tile p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  .project-tile a {
+    display: inline-block;
+    margin-top: 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 20px;
+    border-radius: 6px;
+    transition: background-color 0.3s;
+  }
+  
+  .project-tile a:hover {
+    background-color: #0056b3;
+  }
+  
+  #profile-link {
+    display: block;
+    background-color: #28a745;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+    margin-top: 30px;
+    font-size: 18px;
+  }
+  
+  #profile-link:hover {
+    background-color: #218838;
+  }
+  
